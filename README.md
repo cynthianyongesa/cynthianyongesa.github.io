@@ -1,3 +1,4 @@
+![hey](assests/headshot.png)
 # Graduate Student Research Scientist 
 
 # 👋 About 
