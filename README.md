@@ -24,7 +24,7 @@ Cumulative GPA: 3.61
 ## Graduate Student Researcher/Programming Intern @ Alzheimer's Disease Cooperative Study, San Diego, CA (Oct 2022 – Present)
  - Utilizing NumPy for python for data analysis on virtual reality acclimation trial data, reducing motion sickness risk by 20% and conducting research on virtual reality-based cognitive training and applied natural language processing in OpenAI, NLK and spaCy for Alzheimer's speech analysis.
 - Employing C# for assessing salient and non-salient signals in way-finding VR tasks using eye tracking and pupillometry metrics. Advised by Dr. Judy Pa, PhD.
-![VR](/assets/VR_2.gif)
+![VR](assets/VR_2.gif)
 
 # 📝 Scholarships
 - United World College Davis Leadership Full Tuition Scholarship
@@ -37,4 +37,4 @@ Cumulative GPA: 3.61
 - United World College Costa Rica Research Fellowship
 
 # 🥳 You made it this far!
-![Fun Fact](/assets/INSTA_1.png)
+![Fun Fact](assests/INSTA_1.png)
