@@ -1,3 +1,6 @@
+# 🥳 Welcome!
+![Fun Fact](assests/fun_fact_1-min.png)
+
 # 👋 About 
 I’m Cynthia Nyongesa (“Nyo-nge-sa”), and I’m a 3rd Year Doctoral student in the Neurosciences Graduate Program at UC San Diego. I also was a teachers assistant for the Winter 200B: Basic Neurosciences: System Neurobiology (NEU 200B) course and run the African Graduate Students Association at UCSD – take a look at our awesome projects [here](https://gpsa.ucsd.edu/about/executive-committee/diversity-affairs.html).
 
@@ -33,6 +36,3 @@ Cumulative GPA: 3.61
 - Pomona College President’s Funding Recipient
 - Graduate & Professional Student Associations: EDI Fellowship
 - United World College Costa Rica Research Fellowship
-
-# 🥳 You made it this far!
-![Fun Fact](assests/fun_fact_1-min.png)
