@@ -7,17 +7,14 @@ Feel free to email me at cnyongesa@ucsd.edu or check out the resources listed be
 
 # 🎓 Education 
 
-### Ph.D., Computational Neuroscience, 
-### Expected Sep ‘26 UC San Diego, CA 
+### Ph.D., Computational Neuroscience,Expected Sep ‘26 UC San Diego, CA 
 Dissertation: Using Multimodal Machine Learning Methods to Develop Digital Biomarkers in Aging Advisor: Judy Pa, PhD 
 
-### M.Sc., Computational Neuroscience, 
-### May ‘23 UC San Diego, CA 
+### M.Sc., Computational Neuroscience, May ‘23 UC San Diego, CA 
 Thesis: Language-Based Disease Detection: Bridging AI and Speech for Early Intervention in Alzheimer's. 
 Cumulative GPA: 3.97 
 
-### B.A., Neurosciences, 
-### May ‘19 Pomona College, Claremont, CA 
+### B.A., Neurosciences, May ‘19 Pomona College, Claremont, CA 
 Thesis: Using Computer Vision to Monitor Autism Spectrum Disorders Advisor: Richard Lewis, Ph.D 
 Cumulative GPA: 3.61 
 
