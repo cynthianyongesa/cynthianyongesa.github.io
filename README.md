@@ -1,3 +1,13 @@
+<div align="center">
+  
+  ### Hello! 👋 I am Cynthia Nyongesa
+
+  ![Cynthia Nyongesa GIF](assets/Cynthia_NYONGESA.gif)
+
+  Welcome to my GitHub Page!
+
+</div>
+
 # Cynthia Nyongesa 👩‍🔬💻
 **Computational Neuroscientist | PhD Candidate at UC San Diego**
 
