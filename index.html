@@ -1,38 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cynthia Nyongesa</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #fff3c4;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            text-align: center;
-        }
-        h1 {
-            font-size: 2.5rem;
-            color: #ff66b3;
-        }
-        img {
-            max-width: 80%;
-            height: auto;
-            border-radius: 15px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cynthia Nyongesa</title>
+  <style>
+    /* General Styling */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      scroll-behavior: smooth;
+      cursor: url('assets/custom-cursor.png'), auto; /* Add your custom cursor image here */
+    }
+
+    /* Full-Screen GIF Section */
+    .full-screen-gif {
+      position: relative;
+      height: 100vh;
+      background: url('assets/Cynthia_NYONGESA.gif') no-repeat center center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Overlay Text */
+    .overlay-text {
+      color: #fff;
+      font-size: 3rem;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    /* Scroll Arrow */
+    .scroll-arrow {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 2rem;
+      color: #fff;
+      cursor: pointer;
+      animation: bounce 2s infinite;
+    }
+
+    /* Scroll Arrow Bounce Effect */
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+
+    /* Content Section Below */
+    .content-section {
+      padding: 40px;
+      text-align: center;
+      background-color: #f5f5f5;
+    }
+
+    .content-section h2 {
+      font-size: 2rem;
+      color: #ff4081;
+      margin-bottom: 20px;
+    }
+
+    .content-section p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello! I am Cynthia Nyongesa</h1>
-        <p>(Pronounced: Nyon-geh-sa)</p>
-        <img src="https://github.com/cynthianyongesa/cynthianyongesa.github.io/blob/main/assets/Cynthia_NYONGESA.gif?raw=true" alt="Cynthia Nyongesa GIF">
+
+  <!-- Full-Screen GIF Section -->
+  <div class="full-screen-gif">
+    <div class="overlay-text">
+      Hello! I am Cynthia Nyongesa <br>
+      (Pronounced: Nyon-geh-sa)
     </div>
+    <!-- Scroll Down Arrow -->
+    <div class="scroll-arrow" onclick="scrollToContent()">&#x25BC;</div>
+  </div>
+
+  <!-- Content Section (from README) -->
+  <div id="content" class="content-section">
+    <h2>Welcome to My Page</h2>
+    <p>
+      I am Cynthia Nyongesa, a passionate neuroscientist and PhD candidate.
+      I'm working on cutting-edge research in cognitive decline and neurotechnology.
+    </p>
+    <p>
+      Below you will find more details about my work, experience, and projects.
+    </p>
+  </div>
+
+  <script>
+    /* Scroll Function */
+    function scrollToContent() {
+      document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
 </body>
 </html>
