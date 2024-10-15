@@ -4,90 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cynthia Nyongesa</title>
-  <style>
-    /* General Styling */
-    body, html {
-      margin: 0;
-      padding: 0;
-      font-family: 'Poppins', sans-serif;
-      color: #333;
-      scroll-behavior: smooth;
-      cursor: url('assets/custom_cursor.png'), auto; /* Add your custom cursor image here */
-    }
-
-    /* Full-Screen GIF Section */
-    .full-screen-gif {
-      position: relative;
-      height: 100vh;
-      background: url('assets/Cynthia_NYONGESA.gif') no-repeat center center;
-      background-size: cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    /* Overlay Text */
-    .overlay-text {
-      color: #fff;
-      font-size: 3rem;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.5);
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    /* Scroll Arrow */
-    .scroll-arrow {
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 2rem;
-      color: #fff;
-      cursor: pointer;
-      animation: bounce 2s infinite;
-    }
-
-    /* Scroll Arrow Bounce Effect */
-    @keyframes bounce {
-      0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-      }
-      40% {
-        transform: translateY(-10px);
-      }
-      60% {
-        transform: translateY(-5px);
-      }
-    }
-
-    /* Content Section Below */
-    .content-section {
-      padding: 40px;
-      text-align: center;
-      background-color: #f5f5f5;
-    }
-
-    .content-section h2 {
-      font-size: 2rem;
-      color: #ff4081;
-      margin-bottom: 20px;
-    }
-
-    .content-section p {
-      font-size: 1.2rem;
-      line-height: 1.6;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css"> <!-- Linking external CSS -->
+  <script defer src="effects.js"></script> <!-- Linking JSON-based effects (will explain below) -->
 </head>
 <body>
 
   <!-- Full-Screen GIF Section -->
   <div class="full-screen-gif">
-    <div class="overlay-text">
-      Hello! I am Cynthia Nyongesa <br>
-      (Pronounced: Nyon-geh-sa)
-    </div>
     <!-- Scroll Down Arrow -->
     <div class="scroll-arrow" onclick="scrollToContent()">&#x25BC;</div>
   </div>
@@ -109,6 +32,19 @@
     function scrollToContent() {
       document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
     }
+
+    // JSON Effects - For Future Customizations
+    fetch('effects.json')
+      .then(response => response.json())
+      .then(data => {
+        if (data.cursor) {
+          document.body.style.cursor = `url(${data.cursor}), auto`;
+        }
+        if (data.scrollSpeed) {
+          document.documentElement.style.scrollBehavior = 'smooth';
+        }
+      });
   </script>
+
 </body>
 </html>
