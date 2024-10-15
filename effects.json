@@ -1,0 +1,5 @@
+{
+  "cursor": "assets/custom-cursor.png", 
+  "scrollSpeed": "smooth",
+  "bounceAnimation": true
+}
