@@ -1,8 +1,8 @@
 <div align="center">
   
-  ### Hello! 👋 I am Cynthia Nyongesa
+  ###
 
-  ![Cynthia Nyongesa GIF](assets/Cynthia_NYONGESA.gif)
+  ![Cynthia Nyongesa GIF](https://drive.google.com/uc?export=download&id=1DnQBB8ERQAQTPJNuPvVZ2ae_LzPGYS9B)
 
   Welcome to my GitHub Page!
 
